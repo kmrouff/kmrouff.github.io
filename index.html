@@ -80,6 +80,28 @@
             font-size: 0.9em;
         }
         
+        .cv-section {
+            margin-top: 3em;
+            margin-bottom: 3em;
+        }
+        
+        .cv-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #2a2a2a;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 0.9em;
+            border-radius: 2px;
+            transition: all 0.2s ease;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+        }
+        
+        .cv-button:hover {
+            background: #1a1a1a;
+        }
+        
         .contact {
             margin-top: 3em;
         }
@@ -105,13 +127,9 @@
             width: 100%;
             max-width: 220px;
             aspect-ratio: 1;
-            background: #fafafa;
+            object-fit: cover;
             border-radius: 2px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #bbb;
-            font-size: 0.85em;
+            display: block;
         }
         
         @media (max-width: 768px) {
@@ -143,11 +161,11 @@
             <h1>Kevin Rouff</h1>
             
             <div class="main-text">
-                <p>I'm driven by the intersection of design and science—particularly materials science—and the belief that the most meaningful solutions come from asking the right questions rather than applying brute force. My work sits at the convergence of technical depth and human-centered thinking, where understanding systemic challenges leads to targeted, thoughtful interventions.</p>
+                <p>I'm drawn to problems where design, science, and systems thinking intersect. I believe in interdisciplinary fluidity and diagnostic precision—with the right questions and looking in the right places, better solutions emerge.</p>
                 
-                <p>I co-founded ThusThat, a materials research, development, and consulting practice where we worked with Fortune 500 companies and cultural institutions to address complex material challenges. Over six years, our work earned international recognition through design awards, global press coverage (Financial Times, Fast Company, Dezeen), museum collections, and 20+ exhibitions worldwide.</p>
+                <p>I co-founded ThusThat, a materials research, development, design and consulting practice that worked with Fortune 500s, cultural institutions, architects and consumer brands, bridging between scientific inquiry and public activation. The work ended up in museums, sparked global press coverage, won awards, and traveled to exhibitions internationally. It addressed problems people thought were unsolvable in surprising ways, at much quicker speeds, with a tiny fraction of the resources.</p>
                 
-                <p>I've presented and taught across 10+ countries, translating complex technical concepts for diverse audiences—from engineers to luxury brands to policymakers. My approach emphasizes coalition-building across sectors and identifying root causes rather than surface-level symptoms.</p>
+                <p>I've worked across Europe, the Americas, and the Middle East—translating complexity for broad audiences, building coalitions, finding root causes, and making things that last.</p>
             </div>
             
             <div class="section">
@@ -166,6 +184,10 @@
                 </div>
             </div>
             
+            <div class="cv-section">
+                <a href="Kevin_Rouff_CV.pdf" class="cv-button" download>Download CV</a>
+            </div>
+            
             <div class="contact">
                 <div class="section-title">Contact</div>
                 <a href="mailto:kevinrouff@gmail.com">kevinrouff@gmail.com</a>
@@ -173,9 +195,7 @@
         </div>
         
         <div class="photo-container">
-            <div class="photo">
-                [Your photo here]
-            </div>
+            <img src="kevin_rouff_photo.jpg" alt="Kevin Rouff" class="photo">
         </div>
     </div>
 </body>
