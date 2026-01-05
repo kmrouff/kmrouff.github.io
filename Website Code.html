@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Rouff</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.7;
+            color: #2a2a2a;
+            background: #ffffff;
+            font-weight: 300;
+            font-size: 15px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 80px 40px;
+            display: grid;
+            grid-template-columns: 1.5fr 1fr;
+            gap: 100px;
+            align-items: start;
+        }
+        
+        .content {
+            max-width: 520px;
+        }
+        
+        h1 {
+            font-size: 1.8em;
+            font-weight: 300;
+            margin-bottom: 2.5em;
+            letter-spacing: -0.01em;
+            color: #1a1a1a;
+        }
+        
+        .main-text {
+            margin-bottom: 3em;
+            color: #444;
+            line-height: 1.8;
+        }
+        
+        .main-text p {
+            margin-bottom: 1.2em;
+        }
+        
+        .section {
+            margin-bottom: 2.5em;
+        }
+        
+        .section-title {
+            font-size: 0.75em;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: #999;
+            margin-bottom: 1.2em;
+            font-weight: 400;
+        }
+        
+        .education-item {
+            margin-bottom: 1em;
+        }
+        
+        .degree {
+            font-weight: 400;
+            color: #2a2a2a;
+            font-size: 0.95em;
+        }
+        
+        .institution {
+            color: #777;
+            font-size: 0.9em;
+        }
+        
+        .contact {
+            margin-top: 3em;
+        }
+        
+        .contact a {
+            color: #2a2a2a;
+            text-decoration: none;
+            border-bottom: 1px solid #e0e0e0;
+            transition: all 0.2s ease;
+            font-size: 0.95em;
+        }
+        
+        .contact a:hover {
+            border-bottom-color: #2a2a2a;
+        }
+        
+        .photo-container {
+            position: sticky;
+            top: 80px;
+        }
+        
+        .photo {
+            width: 100%;
+            max-width: 220px;
+            aspect-ratio: 1;
+            background: #fafafa;
+            border-radius: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #bbb;
+            font-size: 0.85em;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+                gap: 40px;
+                padding: 50px 24px;
+            }
+            
+            h1 {
+                font-size: 1.6em;
+                margin-bottom: 2em;
+            }
+            
+            .photo-container {
+                position: relative;
+                top: 0;
+            }
+            
+            .photo {
+                max-width: 180px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Kevin Rouff</h1>
+            
+            <div class="main-text">
+                <p>I'm driven by the intersection of design and science—particularly materials science—and the belief that the most meaningful solutions come from asking the right questions rather than applying brute force. My work sits at the convergence of technical depth and human-centered thinking, where understanding systemic challenges leads to targeted, thoughtful interventions.</p>
+                
+                <p>I co-founded ThusThat, a materials research, development, and consulting practice where we worked with Fortune 500 companies and cultural institutions to address complex material challenges. Over six years, our work earned international recognition through design awards, global press coverage (Financial Times, Fast Company, Dezeen), museum collections, and 20+ exhibitions worldwide.</p>
+                
+                <p>I've presented and taught across 10+ countries, translating complex technical concepts for diverse audiences—from engineers to luxury brands to policymakers. My approach emphasizes coalition-building across sectors and identifying root causes rather than surface-level symptoms.</p>
+            </div>
+            
+            <div class="section">
+                <div class="section-title">Education</div>
+                <div class="education-item">
+                    <div class="degree">MA/MSc Innovation Design Engineering</div>
+                    <div class="institution">Royal College of Art & Imperial College London</div>
+                </div>
+                <div class="education-item">
+                    <div class="degree">BA Science, Technology & Society</div>
+                    <div class="institution">Stanford University</div>
+                </div>
+                <div class="education-item">
+                    <div class="degree">BA Slavic Languages & Literature</div>
+                    <div class="institution">Stanford University</div>
+                </div>
+            </div>
+            
+            <div class="contact">
+                <div class="section-title">Contact</div>
+                <a href="mailto:kevinrouff@gmail.com">kevinrouff@gmail.com</a>
+            </div>
+        </div>
+        
+        <div class="photo-container">
+            <div class="photo">
+                [Your photo here]
+            </div>
+        </div>
+    </div>
+</body>
+</html>
