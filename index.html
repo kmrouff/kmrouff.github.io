@@ -53,6 +53,17 @@
             margin-bottom: 1.2em;
         }
         
+        .main-text a {
+            color: #2a2a2a;
+            text-decoration: none;
+            border-bottom: 1px solid #c8c8c8;
+            transition: all 0.2s ease;
+        }
+        
+        .main-text a:hover {
+            border-bottom-color: #2a2a2a;
+        }
+        
         .section {
             margin-bottom: 2.5em;
         }
@@ -138,6 +149,51 @@
             flex-shrink: 0;
         }
         
+        .projects {
+            margin-top: 3em;
+        }
+        
+        .project {
+            margin-bottom: 1.7em;
+        }
+        
+        .project-header {
+            font-size: 0.95em;
+            margin-bottom: 0.25em;
+        }
+        
+        .project-header a {
+            color: #2a2a2a;
+            text-decoration: none;
+            border-bottom: 1px solid #c8c8c8;
+            transition: all 0.2s ease;
+        }
+        
+        .project-header a:hover {
+            border-bottom-color: #2a2a2a;
+        }
+        
+        .project-header .sep {
+            color: #ccc;
+            margin: 0 0.5em;
+        }
+        
+        .project-header .code-link {
+            font-size: 0.9em;
+            color: #999;
+            border-bottom-color: #e8e8e8;
+        }
+        
+        .project-header .code-link:hover {
+            color: #2a2a2a;
+        }
+        
+        .project-desc {
+            color: #777;
+            font-size: 0.9em;
+            line-height: 1.6;
+        }
+        
         .contact {
             margin-top: 3em;
         }
@@ -199,7 +255,7 @@
             <div class="main-text">
                 <p>I'm drawn to problems where design, science, and systems thinking intersect. I believe in interdisciplinary fluidity and diagnostic precision—with the right questions and looking in the right places, better solutions emerge.</p>
                 
-                <p>I co-founded ThusThat, a materials research, development, design and consulting practice that worked with Fortune 500s, cultural institutions, architects and consumer brands, bridging between scientific inquiry and public activation. The work ended up in museums, sparked global press coverage, won awards, and traveled to exhibitions internationally. It addressed problems people thought were unsolvable in surprising ways, at much quicker speeds, with a tiny fraction of the resources.</p>
+                <p>I co-founded <a href="https://thusthat.com" target="_blank" rel="noopener noreferrer">ThusThat</a>, a materials research, development, design and consulting practice that worked with Fortune 500s, cultural institutions, architects and consumer brands, bridging between scientific inquiry and public activation. The work ended up in museums, sparked global press coverage, won awards, and traveled to exhibitions internationally. It addressed problems people thought were unsolvable in surprising ways, at much quicker speeds, with a tiny fraction of the resources.</p>
                 
                 <p>I've worked across Europe, the Americas, and the Middle East—translating complexity for broad audiences, building coalitions, finding root causes, and making things that last.</p>
             </div>
@@ -207,16 +263,20 @@
             <div class="section">
                 <div class="section-title">Education</div>
                 <div class="education-item">
-                    <div class="degree">MA & MSc Innovation Design Engineering</div>
-                    <div class="institution">Royal College of Art & Imperial College London</div>
-                </div>
-                <div class="education-item">
                     <div class="degree">BS Science, Technology & Society</div>
                     <div class="institution">Stanford University</div>
                 </div>
                 <div class="education-item">
                     <div class="degree">BA Slavic Languages & Literature</div>
                     <div class="institution">Stanford University</div>
+                </div>
+                <div class="education-item">
+                    <div class="degree">MSc Innovation Design Engineering</div>
+                    <div class="institution">Imperial College London</div>
+                </div>
+                <div class="education-item">
+                    <div class="degree">MA Innovation Design Engineering</div>
+                    <div class="institution">Royal College of Art</div>
                 </div>
             </div>
             
@@ -231,6 +291,34 @@
             <div class="contact">
                 <div class="section-title">Contact</div>
                 <a href="mailto:kevinrouff@gmail.com">kevinrouff@gmail.com</a>
+            </div>
+            
+            <div class="section projects">
+                <div class="section-title">Things I've built</div>
+                <div class="project">
+                    <div class="project-header">
+                        <a href="https://boswell-scribe.vercel.app" target="_blank" rel="noopener noreferrer">Boswell</a><span class="sep">&middot;</span><a href="https://github.com/kmrouff/boswell" class="code-link" target="_blank" rel="noopener noreferrer">code</a>
+                    </div>
+                    <div class="project-desc">Point your camera at a book page and drag a finger down the text to keep it. Built because I underline constantly and never go back.</div>
+                </div>
+                <div class="project">
+                    <div class="project-header">
+                        <a href="https://whatcha-eight.vercel.app" target="_blank" rel="noopener noreferrer">whatcha</a><span class="sep">&middot;</span><a href="https://github.com/kmrouff/whatcha" class="code-link" target="_blank" rel="noopener noreferrer">code</a>
+                    </div>
+                    <div class="project-desc">Experience sampling pointed at AI adoption: pings people at random, asks what they&rsquo;re doing, then ranks which recurring tasks actually deserve an agent.</div>
+                </div>
+                <div class="project">
+                    <div class="project-header">
+                        <a href="https://www.remythechef.com" target="_blank" rel="noopener noreferrer">Remy</a><span class="sep">&middot;</span><a href="https://github.com/kmrouff/remy" class="code-link" target="_blank" rel="noopener noreferrer">code</a>
+                    </div>
+                    <div class="project-desc">A hands-free voice cooking assistant. Bring in a recipe by link, photo or search, then talk to it while you shop and cook.</div>
+                </div>
+                <div class="project">
+                    <div class="project-header">
+                        <a href="https://mu-app-d2c2e.web.app" target="_blank" rel="noopener noreferrer">mu</a><span class="sep">&middot;</span><a href="https://github.com/kmrouff/mu" class="code-link" target="_blank" rel="noopener noreferrer">code</a>
+                    </div>
+                    <div class="project-desc">A minimal presence app. Press someone&rsquo;s orb when you think of them and they see a glow. No feed, no chat, no notifications.</div>
+                </div>
             </div>
         </div>
         
